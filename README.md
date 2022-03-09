@@ -1,3 +1,3 @@
-# image-processing-Pillow
+# Data-Estructure-Python
 
-Repository dedicated for image processing with PIllow 
+Repository dedicated for data structure implementation using Python
