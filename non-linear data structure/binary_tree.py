@@ -2,13 +2,13 @@ class Node:
     def __init__(self,data):
         self.data = data
         self.r_child = None
-        self.l_child = None
+        self.l_child = None 
 
 class tree():
     def __init__(self):
         self.root_node = None
         
-    def insert(self,data):
+    def insert(self,data): #insert method 
         node = Node(data)
         if self.root_node is None:
             self.root_node = node
