@@ -35,4 +35,5 @@ class queue:
             self.head.prev = None
             self.count -= 1
 
-
+q1 = queue()
+q1.enqueue('A')
