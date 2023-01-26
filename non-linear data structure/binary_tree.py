@@ -15,15 +15,34 @@ class tree():
         else:
             current = self.root_node
             parent = None
-        while True:
-            parent = current
-            if node.data < current.data:
-                current = current.l_child
-                if current is None:
-                    parent.l_child = Node
-                    return
-            else:
-                current = current.r_child
-                if current is None:
-                    parent.r_child = node
-                    return
+            while True:
+                parent = current
+                if node.data < current.data:
+                    current = current.l_child
+                    if current is None:
+                        parent.l_child = Node(data)
+                        return
+                else:
+                    current = current.r_child
+                    if current is None:
+                        parent.r_child = node
+                        return
+    
+    def inorder_traversal(self,root_node):
+        current = root_node 
+        if current is None:
+            return 
+        self.inorder_traversal(current.l_child)
+        print(current.data)
+        self.inorder_traversal(current.r_child)
+    
+if __name__ == "__main__":
+    elements = [12,15,9,17]
+    
+    tree_1 = tree()
+
+    for i in elements:
+        tree_1.insert(i)
+    
+
+    tree_1.inorder_traversal(tree_1.root_node)
