@@ -1,20 +1,17 @@
-# Data-Structures-Python
+# Data-Structures
 
-Repository dedicated for data structures implementation using Python
+Repository dedicated for data structures implementation using C,C++ and Rust
+
+## Table of Contents
+
+1. [Linear Data Structures]
+   - [Single and Double Linked Lists]
+   - [Queues]
+   - [Stacks]
+
+2. [Non-Linear Data Structures]
+   - [Trees]
+   - [Graphs]
+   - [Hash Tables]
 
 
-## Linear data structures:
-<ul>
-<li>Single and Double linked Lists:</li>
-<q></q>
-<li>Queues:</li>
-<q> Queues work by the FIFO rule. First element inserted is the first to be removed</q>
-<li>Stacks:</li>
-<q>Stacks work by the LIFO rule. the last element pushed is the first to pop.</q>
-</ul>
-
-## Non-Linear Data structures:
-<ul>
-<li>Trees
-<li>Graphs
-</ul>

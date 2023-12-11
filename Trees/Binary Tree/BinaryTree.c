@@ -3,7 +3,7 @@
 
 // Define the structure for a binary tree node
 struct TreeNode {
-    int data;
+    int data; 
     struct TreeNode* left;
     struct TreeNode* right;
 };
